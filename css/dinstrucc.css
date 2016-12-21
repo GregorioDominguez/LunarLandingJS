@@ -1,0 +1,10 @@
+body,html{font-family: helvetica, sans-serif; margin: 0px; padding: 0px;
+height: 100%}
+.a{background-image: url("../img/espacio.png");top: 0px; height: 100%;width: 100%;
+display: block;}
+#titulo{display: block; margin-left: 35%;margin-right: 35%;
+background-color: white; text-align: center;}
+#instrucciones{display: block; margin-left: 35%;margin-right: 35%;
+background-color: white; text-align: center;}
+#volver{display: block; margin-left: 35%;margin-right: 35%;
+background-color: white; text-align: center;}

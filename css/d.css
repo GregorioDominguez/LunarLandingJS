@@ -1,0 +1,49 @@
+﻿body,html{height:100%;padding:0px;margin:0px;}
+.a{background-image: url("../img/espacio.png");}
+.b{background-image: url("../img/espacio.png");}
+.c{background-image: url("../img/espacio.png");display:block !important}
+.a,.b,.c{display:inline-block;width:33.33%;height:95%;float:left;}
+.d{background-image: url("../img/espacio.png"); height:10%;width:100%;
+position:fixed;bottom:0px;}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%;
+display: none;}
+#nave img{height:100%;}
+#naveon{text-align:center;position:fixed;top:10%;width:100%;height:20%;
+display: none;}
+#naveon img{height: 100%;}
+#navelose{text-align:center;position:fixed;top:10%;width:100%;height:20%;
+display: none;}
+#navelose img{height: 100%;}
+#cpanel{background-image: url("../img/espacio.png"); margin:10px;
+list-style-type: none;color: white;}
+#velocidad, #fuel, #altura{color: white;padding: 5%;text-align: center;}
+#start {text-align: center; position:fixed; top:45%; left:35%; right: 35%;
+height: 20%; display: block;}
+#start img{height: 100%;}
+#pausa{text-align: center; position:fixed;top:45%; left: 80%; right: 13%;
+height: 20%;display: none;}
+#pausa img{height: 100%;}
+#restart {text-align: center; position:fixed; top:10%; left:35%; right: 35%;
+height: 20%; display: none;}
+#restart img{height: 100%;}
+#finalfeliz {text-align: center; position:fixed; top:30%; left:30%; right: 30%;
+height: 38%; display: none;}
+#finalfeliz img{height: 100%;}
+#finalfatal {text-align: center; position:fixed; top:30%; left:33%; right: 30%;
+height: 38%; display: none;}
+#finalfatal img{height: 100%;}
+#hidem,#showm{display: none;}   
+#menu{padding: 0px; margin:10px; background-image: url("../img/espacio.png");
+list-style-type: none;}
+#elementosm{text-align: center;border: 1px solid white;}
+#elementosm:last-child {border-top:none;}
+#instrucciones,#acerca{display: block; color: white; padding: 8px 
+16px;text-decoration: none;}
+#c_1{background-color: black;position: fixed;top: 25%;right: 0.75%;left: 67.4%;
+bottom: 10%;border: 5px solid white;display: none;}
+#elementosm:hover{background-color: green;color:white;}
+#comojugar{text-align: center;margin: 20px;color: white;display: none;}
+#tierra{text-align:center;position:fixed;top:50%;width:50%;height:20%}
+#tierra img{height:100%;}
+#luna{text-align:center;position:fixed;bottom:-10%;width:100%;height:20%}
+#luna img{height:100%;}
